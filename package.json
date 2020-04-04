@@ -1,0 +1,24 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy: run dashboard": "cypress run --record --key 9fd76d92-b0f2-4861-b8c2-dc03a71e3389"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuris7/cypressDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuris7/cypressDemo/issues"
+  },
+  "homepage": "https://github.com/yuris7/cypressDemo#readme",
+  "dependencies": {
+    "cypress": "^4.3.0"
+  }
+}
